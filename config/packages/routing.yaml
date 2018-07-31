@@ -1,0 +1,8 @@
+framework:
+    router:
+        strict_requirements: ~
+
+#api2:
+#    type:     rest
+#    host:     localhost
+#    resource: App\Controller\Api2Controller

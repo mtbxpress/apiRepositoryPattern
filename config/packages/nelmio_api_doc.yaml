@@ -1,0 +1,37 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: Api Urki
+            description: Este es el RESTful API de Urki System
+            version: 1.0.0
+    routes: # to filter documented routes
+        path_patterns:
+            - ^/api(?!/doc$) # Accepts routes under /api except /api/doc
+#            - ^/api2(?!/doc$) # Accepts routes under /api except /api/doc
+#    areas:
+#        default:
+#            path_patterns: [ ^/api ]
+#        custom:
+#            path_patterns: [ ^/custom ]
+#        another_custom:
+#            path_patterns: [ ^/anothercustom ]
+
+
+
+
+#nelmio_api_doc:
+#    documentation:
+#        host: api.example.com
+#        schemes: [http, https]
+#        info:
+#            title: My App
+#            description: This is an awesome app!
+#            version: 1.0.0
+#        securityDefinitions:
+#            Bearer:
+#                type: apiKey
+#               description: 'Value: Bearer {jwt}'
+#                name: Authorization
+#                in: header
+#        security:
+#            - Bearer: []
