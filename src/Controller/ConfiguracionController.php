@@ -29,14 +29,13 @@ class ConfiguracionController extends FOSRestController
 {
 
 
-/*    private $configuracionService;
+    private $configuracionService;
 
     public function __construct(ConfiguracionService $configuracionService)
     {
-        syslog(LOG_DEBUG,"CONSTRUCTOR");
         $this->configuracionService = $configuracionService;
     }
-*/
+
 
     /**
      * @Rest\Get("/obtenerConfiguracion", name="obtener_configuracion")
