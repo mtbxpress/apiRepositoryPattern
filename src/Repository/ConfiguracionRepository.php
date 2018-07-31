@@ -9,7 +9,7 @@ use Doctrine\Common\Persistence\ObjectRepository;
 use App\Inter\ConfiguracionRepositoryInterface;
 use App\Entity\Configuracion;
 
-final class ConfiguracionRepository implements ConfiguracionRepositoryInterface//extends EntityRepository//implements EntityManagerInterface
+final class ConfiguracionRepository implements ConfiguracionRepositoryInterface
 {
     /**
      * @var EntityManagerInterface
